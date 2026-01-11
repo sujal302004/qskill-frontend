@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Translator from "./pages/Translator";
+import Generator from "./pages/Generator";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <nav className="flex gap-4 p-4 bg-black text-white">
+        <Link to="/">Home</Link>
+        <Link to="/translator">Translator</Link>
+        <Link to="/generator">Generator</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/translator" element={<Translator />} />
+        <Route path="/generator" element={<Generator />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
