@@ -1,41 +1,59 @@
-# QSkill Frontend Internship – Slab 1
+# QSkill Frontend Internship Tasks 🚀
 
-This project is completed as part of **QSkill Frontend Internship – Slab 1**.
+This repository contains the completed tasks for the **QSkill Frontend Internship** using **React.js** and **Tailwind CSS**.
 
-## 🚀 Tech Stack
-- React.js
-- Tailwind CSS
-- React Router DOM
-- JavaScript (ES6)
+---
 
-## 📌 Features Implemented
+## ✅ Slab 1 – Beginner Tasks (COMPLETED)
 
-### 1️⃣ Client-Side Routing
-- Implemented using `react-router-dom`
-- Pages:
-  - Home
-  - Text Translator
-  - Random String Generator
-- Smooth navigation without page reload
+### 1. Text Translator
+- Built using **React**
+- Uses **RapidAPI** for translation
+- State handled using `useState`
+- API call using `fetch`
 
-### 2️⃣ Text Translator App
-- User enters English text
-- Text is translated to Hindi
-- Integrated with **RapidAPI Text Translator API**
-- Demonstrates:
-  - API integration
-  - Form handling
-  - State management
-
-### 3️⃣ Random String Generator
-- Generates random alphanumeric strings
-- Uses React Hooks:
+### 2. Random String Generator
+- Generates random strings
+- Uses:
   - `useState`
   - `useEffect`
   - `useCallback`
-- Demonstrates component logic and hooks knowledge
 
-## 🛠 How to Run the Project Locally
+### 3. Client-Side Routing
+- Implemented using **react-router-dom**
+- Pages:
+  - Home
+  - Translator
+  - Generator
+
+---
+
+## ✅ Slab 2 – Intermediate Task (COMPLETED)
+
+### Coding Ninjas Website Clone
+- Built with **React + Tailwind CSS**
+- UI inspired by: https://www.codingninjas.com/
+- Includes:
+  - Navbar
+  - Hero Section
+  - Courses Section
+  - Why Choose Us Section
+  - Footer
+- Fully responsive layout
+- Routing implemented
+
+---
+
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- JavaScript
+- RapidAPI
+- React Router DOM
+
+---
+
+## ▶️ How to Run the Project
 
 ```bash
 npm install
